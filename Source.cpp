@@ -1,5 +1,6 @@
 LAB11
 // This program is used to calculate BMI
+// safia 4:34 17/12/2021
 #include <iostream>
 
 void readData(double studWeight[], double studHeight[]);
@@ -8,9 +9,9 @@ void display(double studBMI[]);
 
 int main()
 {
-	double studWeight[3];
-	double studHeight[3];
-	double studBMI[3];
+	double studWeight[20];
+	double studHeight[20];
+	double studBMI[20];
 
 	//function call for input
 	readData(studWeight, studHeight);
@@ -21,7 +22,7 @@ int main()
 }
 void readData(double studWeight[], double studHeight[])
 {
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < 20; i++)
 	{
 		std::cout << " Enter students weight in kg : ";
 		std::cin >> studWeight[i];
@@ -32,14 +33,14 @@ void readData(double studWeight[], double studHeight[])
 }
 void calBMI(double studWeight[], double studHeight[], double studBMI[])
 {
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < 20; i++)
 	{
 		studBMI[i] = studWeight[i] / (studHeight[i] * studHeight[i]);
 	}
 }
 void display(double studBMI[])
 {
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < 20; i++)
 	{
 		std::cout << i << "    " << studBMI[i] << "\n";
 	}
