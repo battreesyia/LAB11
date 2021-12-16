@@ -1,32 +1,29 @@
-// This program is used to calculate BMI of 20 students.
+LAB11
+
+// This program is used to calculate BMI
 
 #include <iostream>
-using namespace std;
 
 int main()
 {
-	double studWeight[20];
-	double studHeight[20];
-	double studBMI[20];
-	int i;
-	for (i = 0; i < 20; i++)
+	double studWeight[3];
+	double studHeight[3];
+	double studBMI[3];
+
+	//enter input
+	for (int i = 0; i < 3; i++)
 	{
-		//enter input
-		cout << " Enter Students Weight in Kg : \t";
-		cin >> studWeight[i];
-		cout << "Enter Students Height in meters : \t";
-		cin >> studHeight[i];
-		cout << endl;
-	}
-		//calculate BMI
-	for (i=0; i < 20; i++)
-	{
-		studBMI[i] = studWeight[i] / (studHeight[i] * studHeight[i]);
+		std::cout << " Enter students weight in kg : ";
+		std::cin >> studWeight[i];
+		std::cout << "Enter students height in meters : ";
+		std::cin >> studHeight[i];
+		std::cout << "\n\n";
 	}
 
-	for (i = 0; i < 20; i++)
+	//calculate BMI
+	for (int i = 0; i < 3; i++)
 	{
-		cout << i << studBMI[i];
+		studBMI[i] = studWeight[i] / (studHeight[i] * studHeight[i]);
+		std::cout << i << "    " << studBMI[i] << "\n";
 	}
-	
 }
