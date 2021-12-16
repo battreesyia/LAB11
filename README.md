@@ -1,7 +1,7 @@
 # LAB11
 
-This is a codinf exerrcise for week 11 lab from my lecturer.
-The program is made to calculate a BMI for 20 students. It use 3 one dimensional array function.
+This is a coding exerrcise for week 11 lab from my lecturer.
+The program is made to calculate BMI for 20 students. It use 3 one dimensional array function.
 
 Question : 
 Body Mass Index (BMI) is a measure of health on weight. it can be calculated by taking your weight in Kg
