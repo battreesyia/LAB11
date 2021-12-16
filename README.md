@@ -10,8 +10,10 @@ The program should use three one dimensional arrays named studWeight that holds 
 and studBMI that holds the calculated BMI for each student. 
 
 The program contains the following functions.
-> readData /*This function receives the studWeight and studHeight arrays from the main functions. it read the weight and height for all of hte students and stored them in the studWeight and
-studHeight arrays respectively. */
-> calBMI /*This function receives one element of the studWeight and studHeight arrays. it calculate the BMI of each student based on her/his weight and height and then store the BMI in 
-the studBMI array.*/
-> display //This function displays the BMI of the students.
+> readData 
+/*This function receives the studWeight and studHeight arrays from the main functions. it read the weight and height for all of hte students and stored them in the studWeight and
+studHeight arrays respectively.*/
+> calBMI 
+/*This function receives one element of the studWeight and studHeight arrays. it calculate the BMI of each student based on her/his weight and height and then store the BMI in the studBMI array.*/
+> display 
+//This function displays the BMI of the students.
